@@ -1,0 +1,116 @@
+
+			html, body {box-sizing:border-box;}
+			*,*::after {box-sizing: inherit;}
+			
+			body {background-color:#99C4C8;
+				font-family:calibri, sans-serif;
+				}
+			#wrapper {
+				width:1024px;
+				margin:auto;
+				box-shadow:3px 3px 10px #F9EBC8, -3px 0px 10px #F9EBC8;
+				}
+			header{height:173px;
+				background-image:url("Pana.jpg");
+				}
+			h1, h3 {font-family:arial black, arial, sans-serif;}
+			header h1 {font-size:56px;
+				color:white;
+				padding-left:45px;
+				padding-top:60px;
+				text-shadow:0px 0px 3px black, 4px 4px 5px black;
+				}
+				table {
+				border:1px solid #EFDAD7;
+				
+				wight:600px;
+				margin:auto;
+				color:black;
+				border-collapse:collapse;
+			
+			}
+			
+			td,th {
+				border:1px solid #EFDAD7;
+				height:20px;
+			
+			}
+			nav {
+				height:47px;
+				background-color:#99C4C8;
+				border-top:1px solid;
+				border-bottom:1px solid;
+				
+				}
+				
+			nav ul {
+				list-style-type:none;
+				padding:0px;
+				margin:0px;
+				display:flex;
+				
+			
+			}
+
+			nav ul li {margin:auto;}
+			
+			nav a{ 
+			display:block;
+			text-decoration:none;
+			font-family:arial, helvetica, sans-serif;
+			font-weight:bold;
+			font-size:1.2rem;
+			background-color:#99C4C8;
+			color:white;
+			padding:0px 20px;
+			height:45px;
+			line-height:45px;
+			}
+			
+			nav a:hover{background-color:#68A7AD;}
+			main{display:block;
+				height:auto;
+				margin-bottom:0px;
+				padding:10px;
+				background-color:white;
+				}
+			footer{
+				margin-top:none;
+				background-color:#A0BCC2;
+				padding:10px;
+				text-align:center;
+				font-size:12px;
+				}
+			footer p {margin-top:0px;}
+			section {
+				border: 0px solid;
+				}
+			
+			img {border:1px solid;
+				border-radius:15px;
+				}
+			section img {height:370px;
+				margin-right:10px;
+				float:left;
+				}
+			article  {margin-top:40px;
+				margin-bottom:0px;
+				border: 0px solid;
+				}
+			article img {float:right;
+				height:200px;
+				margin-left: 10px;
+				
+				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

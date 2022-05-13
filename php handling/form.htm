@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>forms</title>
+		<style>
+		body {background-color:lightsteelblue; font-family:calibri;}
+		form {width:50%;
+		margin:auto;
+		}
+		fieldset{background-color:lightblue;
+		border-radius:25px;
+		}
+		
+		legend {font-family:arial;
+		font-weight:bold;
+		font-size:24;
+		background-color:pink;
+		}
+		
+		
+		label{display:block;
+		width:50%;
+		float:left;
+		text-align:right;
+		margin-right:10px;}
+		
+		input [type-text]{display:block; width:200px; margin-bottom:5px;}
+		
+		
+	
+		
+		
+		</style>
+	</head>
+	<body>
+		<form action="form_handler.php" method="post">
+		<fieldset>
+			<legend><h2>Here's a form:</h2></legend>
+			
+			<label for="fname"> First Name:</label>
+			<input type="text" name="fname" id="fname">
+			<br />
+				<label for="lname"> Last Name:</label>
+			<input type="text" name="lname" id="lname">
+			<br />
+				<label for="email"> What is your email address:</label>
+			<input type="text" name="email" id="email">
+			<br />
+			
+			<label for="password">Type your password here:</label>
+			<input type="password" name="password" id="password">
+			<br />
+			
+			<label for="yes_no">Choose One</label>
+			<input type="radio" name="yes_no" id="yes_no" value="yes" checked> yes
+			<input type="radio" name="yes_no" id="yes_no" value="no"> no
+			<br />
+			
+			<label for="checks">Choose multiple</label>
+			<input type="checkbox" name="choice_1" id="checks" value="choice_1">choice 1
+			<input type="checkbox" name="choice_2"  value="choice_2">choice 2
+			<input type="checkbox" name="choice_3"  value="choice_3">choice 3
+			<input type="checkbox" name="choice_4  value="choice_4">choice 4
+			<br />
+			
+			<label for="drop-down">Choose from the list</label>
+			<select name="drop-down" id="drop-down">
+				<option value="choice_5">Choice 5</option>
+				<option value="choice_6">Choice 6</option>
+				<option value="choice_7" selected>Choice 7</option>
+				<option value="choice_8">Choice 8</option>
+				<option value="choice_9">Choice 9</option>
+			</select>
+			<br />
+			
+			<label for="para">Type a paragraph:</label>
+			<textarea name="para" id="para" rows="5" cols="45">Default text</textarea>
+			<br />
+			
+			<button type="button" name="click" id="click" 
+			onclick="alert('you pushed the Button!')">Click here!</button>
+				
+			<br />
+			
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+			</fieldset>
+		</form>
+	
+	</body>
+</html>		
